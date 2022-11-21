@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  /* font-weight: 500; */
+  color:#6360AB;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #6360AB;
+}
+
+
+/* .ant-upload-picture-card-wrapper {
+  width: auto;
+}
+
+.ant-upload-picture-card-wrapper .ant-upload-select-picture-card {
+  border-radius: 50%;
+} */

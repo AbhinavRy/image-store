@@ -1,0 +1,29 @@
+$primaryColor: #0014FF;
+$secColor: #009EFF;
+
+.blueBg {
+    background: $primaryColor;
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+}
+
+.welcomeWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 7.2em 6.8em;
+}
+
+.welcomeText {
+    font-size: 4em;
+    line-height: 1em;
+}
+
+.formWrapper {
+    padding: 7em;
+}
+
+.loginButton {
+    margin-top: 8px;
+}

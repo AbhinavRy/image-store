@@ -1,0 +1,65 @@
+$primaryColor: #0014FF;
+$secColor: #009EFF;
+$accentColor: #00E7FF;
+
+.welcomeText{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.descText{
+    margin-bottom: 1.2em;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0,0,0,0.5)
+}
+
+.compWrapper{
+    display: inline-flex;
+    width: 80%;
+    align-items: left;
+    flex-direction: column;
+    gap: 1.2em;
+}
+
+.inputLabel {
+    font-size: 12px;
+    font-weight: 500;
+    color: #32324D;
+}
+
+.additionalFt {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.forgotText:hover {
+    cursor: pointer;
+}
+
+.customButton, .customButton:hover, .customButton:focus, .customButton:active {
+    background: $secColor;
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em;
+    width: 100%;
+}
+
+.passMsg .error {
+    color: red;
+    font-size: 12px;
+}
+
+.passMsg .desc {
+    color: green;
+    font-size: 12px;
+}
+
+.emailModal {
+    width: 100%;
+    padding: 0.5em;
+}
